@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manu"
+    app:startDestination="@+id/manu_Home">
+    <fragment
+        android:id="@+id/manu_Home"
+        android:name="com.example.agroguide.home_pageFragment"
+        android:label="home_page"
+        tools:layout="@layout/fragment_home_page" />
+
+    <activity
+        android:id="@+id/menu_profile"
+        android:name="com.example.agroguide.layout_navigation_profile"
+        android:label="activity_layout_navigation_profile"
+        tools:layout="@layout/activity_layout_navigation_profile" />
+    <activity
+        android:id="@+id/manu_aboutUs"
+        android:name="com.example.agroguide.About_us_navigtion"
+        android:label="activity_about_us_navigtion"
+        tools:layout="@layout/activity_about_us_navigtion" />
+    <activity
+        android:id="@+id/menu_Support"
+        android:name="com.example.agroguide.Support_navigtion"
+        android:label="activity_support_navigtion"
+        tools:layout="@layout/activity_support_navigtion" />
+    <activity
+        android:id="@+id/menu_Ordar"
+        android:name="com.example.agroguide.Order_navigtion"
+        android:label="activity_order_navigtion"
+        tools:layout="@layout/activity_order_navigtion" />
+    <activity
+        android:id="@+id/menu_Notification"
+        android:name="com.example.agroguide.Notification_navigtion"
+        android:label="activity_notification_navigtion"
+        tools:layout="@layout/activity_notification_navigtion" />
+
+
+</navigation>

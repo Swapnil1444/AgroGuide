@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/color_white"
+    android:layout_height="match_parent"
+    tools:context=".About_us_navigtion"
+    android:orientation="vertical"
+    >
+
+  <com.google.android.material.appbar.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@drawable/trending_bacground"
+        android:layout_width="match_parent"
+        android:layoutMode="opticalBounds"
+        android:layout_height="wrap_content">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/nigetiv_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:text="@string/aboutus"
+            android:textColor="@color/color_white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+      </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+  </com.google.android.material.appbar.AppBarLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@drawable/white_rectangle_backgrounds"
+      android:gravity="center"
+      android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/colorGreen"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/version_0_1"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:layout_width="304dp"
+        android:layout_height="204dp"
+        android:src="@drawable/agroguid_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2024_2024_agroguide_lnc" />
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126578097521",
+    "project_id": "agroguide-6accc",
+    "storage_bucket": "agroguide-6accc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126578097521:android:5082a28a790dd4b6ed4ad0",
+        "android_client_info": {
+          "package_name": "com.example.agroguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7nC4T7EeoTYc_abyxWXXYBmO8e1scgnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

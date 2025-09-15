@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile"
+        />
+<!--    <item-->
+<!--        android:id="@+id/menu_Notification"-->
+<!--        android:icon="@drawable/notification"-->
+<!--        android:title="@string/notification"-->
+<!--        />-->
+<!--    <item-->
+<!--        android:id="@+id/menu_Ordar"-->
+<!--        android:icon="@drawable/ordars"-->
+<!--        android:title="@string/ordar"-->
+<!--        />-->
+    <item
+        android:title="@string/othars"
+        >
+        <menu>
+<!--            <item-->
+<!--                android:title="@string/setting"-->
+<!--                android:icon="@drawable/setting"-->
+<!--                android:id="@+id/menu_Setting"-->
+<!--                />-->
+            <item
+                android:title="@string/support"
+                android:icon="@drawable/support"
+                android:id="@+id/menu_Support"
+                />
+            <item
+                android:title="@string/aboutus"
+                android:id="@+id/manu_aboutUs"
+                android:icon="@drawable/about"
+                />
+
+        </menu>
+    </item>
+</menu>

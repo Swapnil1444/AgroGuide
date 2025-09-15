@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".prodect">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@drawable/trending_bacground"
+            android:layout_width="match_parent"
+            android:layoutMode="opticalBounds"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nigetiv_menu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:text="@string/prodect"
+                    android:textColor="@color/color_white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/pro_herbicides"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/herbiciders"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#03A9F4"
+                    android:paddingRight="20dp"
+                    android:layout_alignParentEnd="true"
+
+                    />
+
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/her_strike"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/strike" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/strike"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹220.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="500g"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/her_roundup"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/roundup" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/roundup"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹180.00 "
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 l"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/her_Lris"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/lris" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lris"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹330.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 SKU"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/her_Gole"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/goal" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/goal"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹250.00 "
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 l"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/her_vivaya"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/vivaya" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/vivaya"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹1,550.00 "
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 LTR"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/her_impyre"
+                            android:layout_width="wrap_content"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/impyre" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/impyre"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹1,000.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1 LITRE"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/her_tynzer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/tynzer" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/tynzer"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹920.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 SKU"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/her_topper"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/topper_77" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/topper_77"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹80.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="100g"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/pro_fertilizers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="@string/fertilizers"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#03A9F4"
+                    android:paddingRight="20dp"
+                    android:layout_alignParentEnd="true"
+
+                    />
+
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                >
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+
+                        >
+                        <LinearLayout
+                            android:id="@+id/fer_10_26_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/gromor10_26_10" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/_10_26_10"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹1,450.00 "
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="50kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/fer_kisan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:layout_gravity="center"
+                                android:src="@drawable/jay_kisan_19_19_19" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/kisan_19_19_19"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹1,550.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="50kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/fer_potassium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/iffco_0_0_50" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/potassium"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹86.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/fer_urja"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/urea_46" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/urja_46"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹280.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="45kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/fer_19_19_19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/npk19_19_19" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/_19_19_19"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹180.00 "
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:gravity="center"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/fer_20_20_20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/navratna20_20_0_13" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/_20_20_13"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹1,220.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="50kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:id="@+id/pro_seeds"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:text="@string/seeds"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/view_all"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="#03A9F4"
+                    android:paddingRight="20dp"
+                    android:layout_alignParentEnd="true"
+
+                    />
+
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/see_gulmohar"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/gulmohar" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/gulmohar"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹1,450.00 "
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2 kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/see_gowri"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/gowri" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/gowri"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹180.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="500g"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/see_nk"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/nk_6240" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/nk_62040_plus"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹370.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3.6kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/see_abhilash"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/abihiash" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/abhilash"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹500.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10gm"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="0"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+                        <LinearLayout
+                            android:id="@+id/see_Avd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/adv756" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/avd_756"
+                                android:textAlignment="center"
+                                android:layout_marginTop="8dp"
+                                android:textSize="18dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹1,100.00 "
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4kg"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_column="1"
+                        android:layout_rowWeight="1"
+                        android:layout_columnWeight="1"
+                        app:cardElevation="8dp"
+                        app:cardCornerRadius="10dp"
+                        >
+
+
+                        <LinearLayout
+                            android:id="@+id/see_Arti"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_gravity="center_vertical|center_horizontal"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="140dp"
+                                android:layout_height="140dp"
+                                android:src="@drawable/aarti" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/aarti"
+                                android:textAlignment="center"
+                                android:textSize="18dp"
+                                android:layout_marginTop="8dp"
+                                android:textStyle="bold"
+
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Price:- ₹450.00"
+                                android:textAlignment="center"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="50g"
+                                android:textSize="15dp"
+                                android:textColor="#5DDC62"
+                                android:textStyle="italic"
+                                android:layout_marginBottom="8dp"
+
+                                />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

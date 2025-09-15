@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AgroGuide"
+        tools:targetApi="31">
+        <activity
+            android:name=".crop_onion"
+            android:exported="false" />
+        <activity
+            android:name=".crop_mango"
+            android:exported="false" />
+        <activity
+            android:name=".crop_banana"
+            android:exported="false" />
+        <activity
+            android:name=".crop_lime"
+            android:exported="false" />
+        <activity
+            android:name=".crop_strawberries"
+            android:exported="false" />
+        <activity
+            android:name=".crop_tomatoes"
+            android:exported="false" />
+        <activity
+            android:name=".crop_watermelon"
+            android:exported="false" />
+        <activity
+            android:name=".tec_plantation_farming"
+            android:exported="false" />
+        <activity
+            android:name=".tec_crop_rotation"
+            android:exported="false" />
+        <activity
+            android:name=".tec_aquaponics"
+            android:exported="false" />
+        <activity
+            android:name=".tec_aeroponics_system"
+            android:exported="false" />
+        <activity
+            android:name=".tec_precision_farming"
+            android:exported="false" />
+        <activity
+            android:name=".tec_hydroponics"
+            android:exported="false" />
+        <activity
+            android:name=".castam_dailog_box"
+            android:exported="false" />
+        <activity
+            android:name=".tec_organic_farming"
+            android:exported="false" />
+        <activity
+            android:name=".Farming_Tips"
+            android:exported="false" />
+        <activity
+            android:name=".Market_Prices"
+            android:exported="false" />
+        <activity
+            android:name=".weather"
+            android:exported="false" />
+        <activity
+            android:name=".Government_Schemes"
+            android:exported="false" />
+        <activity
+            android:name=".see_gulmohar_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".see_gowri_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".see_nk60_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".see_abhilash_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".see_avd_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".see_artti_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_dap_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_poorna_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_potassium_0_52_34_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_20_20_13_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_19_19_19_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_urja_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_potassium_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_kisan_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fer_10_26_10_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".her_targa_super_prodect"
+            android:exported="false"
+            android:label="@string/title_activity_her_targa_super_prodect"
+            android:theme="@style/Theme.AgroGuide" />
+        <activity
+            android:name=".her_dap_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".her_topper_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".her_tynzer_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".her_impyry_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".her_vivaya_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".her_goal"
+            android:exported="false" />
+        <activity
+            android:name=".her_lris_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".her_roundup_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_navigtion"
+            android:exported="false" />
+        <activity
+            android:name=".Order_navigtion"
+            android:exported="false" />
+        <activity
+            android:name=".Support_navigtion"
+            android:exported="false" />
+        <activity
+            android:name=".About_us_navigtion"
+            android:exported="false" />
+        <activity
+            android:name=".layout_navigation_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Seeds_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".Order_now"
+            android:exported="false" />
+        <activity
+            android:name=".her_Strike_product"
+            android:exported="false" />
+        <activity
+            android:name=".heribicides_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".fertilizers_prodect"
+            android:exported="false" />
+        <activity
+            android:name=".prodect"
+            android:exported="false" />
+        <activity
+            android:name=".crop_information"
+            android:exported="false" />
+        <activity
+            android:name=".OTPVerification"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_home"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
